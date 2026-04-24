@@ -9,7 +9,7 @@
  *   import('/src/pdf/inspectPdfFields.ts').then(m => m.logPdfFields())
  */
 import { PDFDocument } from 'pdf-lib';
-import pdfTemplateUrl from '../assets/pdf/OF297-24.pdf';
+import pdfTemplateUrl from '../assets/PDF/OF297-24.pdf';
 
 export async function logPdfFields(): Promise<string[]> {
   const res = await fetch(pdfTemplateUrl as string);

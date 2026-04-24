@@ -27,7 +27,7 @@
  *  34 [PDFSignature] Supervisor signature
  */
 import { PDFDocument, StandardFonts } from 'pdf-lib';
-import pdfTemplateUrl from '../assets/pdf/OF297-24.pdf';
+import pdfTemplateUrl from '../assets/PDF/OF297-24.pdf';
 import type { ShiftTicket } from '../lib/db';
 
 const P = 'topmostSubform[0].Page1[0]';
